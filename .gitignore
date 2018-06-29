@@ -105,3 +105,4 @@ venv.bak/
 
 # Own
 .DS_Store
+*.pdf
