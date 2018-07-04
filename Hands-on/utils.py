@@ -147,7 +147,7 @@ def visualize(pi=None, V=None):
 
     if V is not None:
         ax = fig.add_subplot(1, 2, 1)
-        sns.heatmap(V, ax=ax)
+        sns.heatmap(V, vmin=350, vmax=650, ax=ax)
         ax.set_ylabel("1st location")
         ax.set_xlabel("2nd location")
         ax.set_title("State values")
