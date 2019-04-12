@@ -1,0 +1,5 @@
+numpy
+matplotlib
+seaborn
+scipy
+-e git+https://github.com/piojanu/humblerl.git@ab1e32fdd5ede50c5ab531aa3f301d7683bae494#egg=humblerl
